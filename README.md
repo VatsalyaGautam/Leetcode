@@ -20,5 +20,5 @@ In this repository, I've endeavored to document my journey through LeetCode, sha
 To delve into this treasure trove of code, simply clone this repository to your local machine. Feel free to explore, learn, and adapt these solutions to your own adventures!
 
 ```bash
-git clone https://github.com/yourusername/leetcode.git
+git clone https://github.com/VatsalyaGautam/leetcode.git
 
