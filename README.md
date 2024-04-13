@@ -10,9 +10,6 @@ Welcome to my Code Lair! Here you'll find a collection of my conquests over the 
 
 - [About](#about)
 - [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
 
 ## About
 
