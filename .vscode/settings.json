@@ -1,0 +1,7 @@
+{
+  "git.decorations.enabled": true,
+  "git.enabled": true,
+  "files.associations": {
+    "ostream": "cpp"
+  }
+}
