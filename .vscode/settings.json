@@ -1,37 +1,65 @@
 {
-  // Git settings
-  "git.enabled": true,
-  "git.decorations.enabled": true,
-
-  // File associations
   "files.associations": {
-    "*.ostream": "cpp",
-    "*.mycpp": "cpp" // Add more custom associations if needed
+    "iostream": "cpp",
+    "algorithm": "cpp",
+    "__bit_reference": "cpp",
+    "__config": "cpp",
+    "__debug": "cpp",
+    "__errc": "cpp",
+    "__hash_table": "cpp",
+    "__locale": "cpp",
+    "__mutex_base": "cpp",
+    "__node_handle": "cpp",
+    "__split_buffer": "cpp",
+    "__threading_support": "cpp",
+    "__verbose_abort": "cpp",
+    "array": "cpp",
+    "atomic": "cpp",
+    "bitset": "cpp",
+    "cctype": "cpp",
+    "charconv": "cpp",
+    "clocale": "cpp",
+    "cmath": "cpp",
+    "complex": "cpp",
+    "cstdarg": "cpp",
+    "cstddef": "cpp",
+    "cstdint": "cpp",
+    "cstdio": "cpp",
+    "cstdlib": "cpp",
+    "cstring": "cpp",
+    "ctime": "cpp",
+    "cwchar": "cpp",
+    "cwctype": "cpp",
+    "exception": "cpp",
+    "initializer_list": "cpp",
+    "ios": "cpp",
+    "iosfwd": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "locale": "cpp",
+    "mutex": "cpp",
+    "new": "cpp",
+    "optional": "cpp",
+    "ostream": "cpp",
+    "ratio": "cpp",
+    "sstream": "cpp",
+    "stdexcept": "cpp",
+    "streambuf": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "system_error": "cpp",
+    "tuple": "cpp",
+    "typeinfo": "cpp",
+    "unordered_map": "cpp",
+    "variant": "cpp",
+    "vector": "cpp"
   },
-
-  // Color customization
-  "workbench.colorCustomizations": {
-    "editor.foreground": "#FFFFFF", // Text color
-    "editor.background": "#1E1E1E", // Background color
-    "editorCursor.foreground": "#FF0000", // Cursor color
-    "editorGutter.modifiedBackground": "#00FF00", // Gutter color for modified lines
-    "editorGutter.addedBackground": "#00FF00", // Gutter color for added lines
-    "editorGutter.deletedBackground": "#FF0000" // Gutter color for deleted lines
-  },
-
-  // Formatting settings
+  "cmake.configureOnOpen": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "prettier.singleQuote": true,
-  "prettier.trailingComma": "es5",
-
-  // Git settings
-  "git.enableSmartCommit": true,
-  "git.confirmSync": false,
-
-  // Misc settings
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 1000, // Auto save delay in milliseconds
-  "workbench.startupEditor": "welcomePage",
-  "workbench.colorTheme": "GitHub Dark"
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true
+  },
+  "editor.formatOnPaste": false
 }
