@@ -1,7 +1,37 @@
 {
-  "git.decorations.enabled": true,
+  // Git settings
   "git.enabled": true,
+  "git.decorations.enabled": true,
+
+  // File associations
   "files.associations": {
-    "ostream": "cpp"
-  }
+    "*.ostream": "cpp",
+    "*.mycpp": "cpp" // Add more custom associations if needed
+  },
+
+  // Color customization
+  "workbench.colorCustomizations": {
+    "editor.foreground": "#FFFFFF", // Text color
+    "editor.background": "#1E1E1E", // Background color
+    "editorCursor.foreground": "#FF0000", // Cursor color
+    "editorGutter.modifiedBackground": "#00FF00", // Gutter color for modified lines
+    "editorGutter.addedBackground": "#00FF00", // Gutter color for added lines
+    "editorGutter.deletedBackground": "#FF0000" // Gutter color for deleted lines
+  },
+
+  // Formatting settings
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+
+  // Git settings
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+
+  // Misc settings
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000, // Auto save delay in milliseconds
+  "workbench.startupEditor": "welcomePage",
+  "workbench.colorTheme": "GitHub Dark"
 }
