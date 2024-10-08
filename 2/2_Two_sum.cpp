@@ -69,7 +69,5 @@ int main()
         result = result->next;
     }
     std::cout << std::endl;
-
-    // Memory cleanup (for real applications, should delete dynamically allocated memory properly)
     return 0;
 }
